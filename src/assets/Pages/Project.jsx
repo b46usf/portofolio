@@ -22,7 +22,7 @@ export default function Project() {
 			</Link>
 			<div className="card card-compact w-96 bg-base-100 shadow-xl mt-16">
 				<figure>
-					<img src="src/assets/img/project1.png" alt="Portofolio" />
+					<img src="./img/project1.png" alt="Portofolio" />
 				</figure>
 				<div className="card-body">
 					<h2 className="card-title">Website Portofolio</h2>
@@ -44,7 +44,7 @@ export default function Project() {
 			</div>
 			<div className="card card-compact w-96 bg-base-100 shadow-xl">
 				<figure>
-					<img src="src/assets/img/project2.png" alt="Website " />
+					<img src="./img/project2.png" alt="Website " />
 				</figure>
 				<div className="card-body">
 					<h2 className="card-title">Exsciitwo</h2>
@@ -63,7 +63,7 @@ export default function Project() {
 			</div>
 			<div className="card card-compact w-96 bg-base-100 shadow-xl">
 				<figure>
-					<img src="src/assets/img/project3.png" alt="Iqiyi-clone" />
+					<img src="./img/project3.png" alt="Iqiyi-clone" />
 				</figure>
 				<div className="card-body">
 					<h2 className="card-title">Web Cloning Iqiyi</h2>
