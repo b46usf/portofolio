@@ -63,6 +63,22 @@ export default function Contact() {
 					>
 						<GitHub size={26} />
 					</a>
+					<a
+						href="https://github.com/Ijoelel"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="w-10 h-10"
+					>
+						<Twitter size={26} />
+					</a>
+					<a
+						href="https://github.com/Ijoelel"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="w-10 h-10"
+					>
+						<Globe size={26} />
+					</a>
 				</div>
 			</div>
 		</div>

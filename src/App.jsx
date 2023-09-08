@@ -3,7 +3,7 @@ import Home from "./Home.jsx";
 import Cert from "./assets/Pages/Cert.jsx";
 import Contact from "./assets/Pages/Contact.jsx";
 import Project from "./assets/Pages/Project.jsx";
-import Skills from "./assets/Pages/Skills.jsx";
+import About from "./assets/Pages/About.jsx";
 
 const App = () => {
 	return (
