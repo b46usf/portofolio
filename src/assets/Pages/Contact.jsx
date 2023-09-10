@@ -38,7 +38,7 @@ export default function Contact() {
 					<Mail size={26} />
 					<h1>afrizal.23183@mhs.unesa.ac.id</h1>
 				</div>
-				<div className="flex justify-center items-center gap-32">
+				<div className="flex justify-between items-center">
 					<a
 						href="https://www.instagram.com/afrizallea_/"
 						target="_blank"
@@ -64,7 +64,7 @@ export default function Contact() {
 						<GitHub size={26} />
 					</a>
 					<a
-						href="https://github.com/Ijoelel"
+						href="https://twitter.com/Ijoelel?s=09"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="w-10 h-10"
@@ -72,7 +72,7 @@ export default function Contact() {
 						<Twitter size={26} />
 					</a>
 					<a
-						href="https://github.com/Ijoelel"
+						href="https://afrizal-luthfi.vercel.app"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="w-10 h-10"
