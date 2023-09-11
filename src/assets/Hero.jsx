@@ -4,7 +4,7 @@ export default function HeroApp() {
 	return (
 		<div className="w-full h-full flex items-center flex-col md:flex-row md:gap-32 justify-center md:mt-0">
 			<img
-				src="./img/1.png"
+				src="./img/1.webp"
 				className="w-[10rem] rounded-full bg-slate-500 border-slate-400 border-2 md:w-[12rem] lg:w-[15rem] md:order-last"
 			/>
 			<div className="md:ml-24 md:w-1/3">

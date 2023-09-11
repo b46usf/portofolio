@@ -1,12 +1,36 @@
 import { Link } from "react-router-dom";
+import api from "../api.json";
 
 export default function Cert() {
-	window.addEventListener("DOMContentLoaded", () => {
-		alert("Tekan pada tabel untuk memunculkan sertifikat");
-	});
+	setTimeout(function () {
+		if (window.innerWidth <= 768) {
+			document.getElementById("my_modal_x").showModal();
+		}
+	}, 0);
 
 	return (
 		<div className="w-screen h-screen flex justify-center items-center flex-col gap-4 md:justify-center md:mt-0 md:flex-row">
+			<dialog id="my_modal_x" className="modal">
+				<div className="modal-box alert">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						className="stroke-current shrink-0 w-6 h-6"
+					>
+						<path
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+						></path>
+					</svg>
+					<span>Tekan pada tabel untuk melihat sertifikat.</span>
+				</div>
+				<form method="dialog" className="modal-backdrop">
+					<button>close</button>
+				</form>
+			</dialog>
 			<Link to="/" className="flex gap-3 absolute top-5 left-8">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +48,9 @@ export default function Cert() {
 				</svg>
 				<h1 className="hidden md:block">Back to Home</h1>
 			</Link>
-			<div className="w-4/5 h-4/5 flex p-6 justify-center items-center border-2 rounded-lg border-gray-700">
-				<div className="md:overflow-x-auto w-full h-full overflow-x-hidden">
-					<table className="table table-pin-rows md:table-lg ">
+			<div className="w-full md:w-4/5 md:h-4/5 flex p-6 justify-center items-center border-0 rounded-lg border-gray-700 md:border-2">
+				<div className="overflow-x-auto w-full h-full">
+					<table className="table table-pin-rows table-pin-cols table-sm md:table-lg">
 						{/* head */}
 						<thead>
 							<tr>
@@ -38,139 +62,67 @@ export default function Cert() {
 							</tr>
 						</thead>
 						<tbody>
-							{/* row 1 */}
-							<tr
-								onClick={() =>
-									document
-										.getElementById("my_modal_2")
-										.showModal()
-								}
-							>
-								<th>1</th>
-								<td>Python, (Basic)</td>
-								<td>07 July 2023</td>
-								<td>HackerRank</td>
-								<td>
-									<button
-										className="btn btn-xs"
-										onClick={() =>
-											document
-												.getElementById("my_modal_2")
-												.showModal()
-										}
+							{api.result.map((item, i) => {
+								return (
+									<tr key={i}
 									>
-										Show
-									</button>
-									<dialog id="my_modal_2" className="modal">
-										<div className="modal-box">
-											<img
-												src="./img/sertif/problem_solving_basic certificate.webp"
-												alt=""
-											/>
-											<div className="modal-action">
-												<form method="dialog">
-													{/* if there is a button in form, it will close the modal */}
-													<button className="btn">
-														Close
-													</button>
-												</form>
-											</div>
-										</div>
-
-										<form
-											method="dialog"
-											className="modal-backdrop"
+										<th>{i + 1}</th>
+										<td>{item.title}</td>
+										<td>{item.date}</td>
+										<td>
+											<a
+												href={item.link}
+												target="_blank"
+												rel="noopener noreferrer"
+												className="text-blue-600 hover:text-slate-400"
+											>
+												{item.from}
+											</a>
+										</td>
+										<td>
+											<button
+												className="btn btn-xs hidden md:block"
+												onClick={() =>
+													document
+														.getElementById(
+															`my_modal_${i}`
+														)
+														.showModal()
+												}
+											>
+												Show
+											</button>
+										</td>
+										<dialog
+											id={`my_modal_${i}`}
+											className="modal"
 										>
-											<button>close</button>
-										</form>
-									</dialog>
-								</td>
-							</tr>
-							{/* row 2 */}
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
-							<tr>
-								<th>2</th>
-								<td>Problem Solving (Basic)</td>
-								<td>07 July, 2023</td>
-								<td>See</td>
-							</tr>
+											<div className="modal-box">
+												<img
+													src={`./sertif/${item.image}`}
+													alt={item.title}
+												/>
+												<div className="modal-action">
+													<form method="dialog">
+														{" "}
+														{/* if there is a button in form, it will close the modal */}
+														<button className="btn">
+															Close
+														</button>{" "}
+													</form>
+												</div>
+											</div>
+
+											<form
+												method="dialog"
+												className="modal-backdrop"
+											>
+												<button>close</button>
+											</form>
+										</dialog>
+									</tr>
+								);
+							})}
 						</tbody>
 					</table>
 				</div>

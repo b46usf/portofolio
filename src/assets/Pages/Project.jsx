@@ -20,9 +20,9 @@ export default function Project() {
 				</svg>
 				<h1 className="hidden md:block">Back to Home</h1>
 			</Link>
-			<div className="card card-compact w-96 bg-base-100 shadow-xl mt-16">
+			<div className="card card-compact w-96 bg-base-100 shadow-xl mt-16 md:mt-0">
 				<figure>
-					<img src="./img/project1.png" alt="Portofolio" />
+					<img src="./img/project1.webp" alt="Portofolio" />
 				</figure>
 				<div className="card-body">
 					<h2 className="card-title">Website Portofolio</h2>
@@ -44,7 +44,7 @@ export default function Project() {
 			</div>
 			<div className="card card-compact w-96 bg-base-100 shadow-xl">
 				<figure>
-					<img src="./img/project2.png" alt="Website " />
+					<img src="./img/project2.webp" alt="Website " />
 				</figure>
 				<div className="card-body">
 					<h2 className="card-title">Exsciitwo</h2>
@@ -63,7 +63,7 @@ export default function Project() {
 			</div>
 			<div className="card card-compact w-96 bg-base-100 shadow-xl">
 				<figure>
-					<img src="./img/project3.png" alt="Iqiyi-clone" />
+					<img src="./img/project3.webp" alt="Iqiyi-clone" />
 				</figure>
 				<div className="card-body">
 					<h2 className="card-title">Web Cloning Iqiyi</h2>

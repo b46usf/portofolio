@@ -1,0 +1,60 @@
+{
+	"result": [
+		{
+			"title": "Python (Basic)",
+			"date": "7/7/2023",
+			"from": "HackerRank",
+			"link": "https://www.hackerrank.com/",
+			"image": "python_basic_certificate.webp"
+		},
+		{
+			"title": "Problem Solving (Basic)",
+			"date": "7/7/2023",
+			"from": "HackerRank",
+			"link": "https://www.hackerrank.com/",
+			"image": "problem_solving_basic_certificate.webp"
+		},
+		{
+			"title": "Introduction to Data Science with R",
+			"date": "21/8/2021",
+			"from": "DQLab",
+			"link": "https://dqlab.id/",
+			"image": "certificate-DQLABBGINRJRNCDG.webp"
+		},
+		{
+			"title": "Introduction to Data Science with Python",
+			"date": "21/8/2021",
+			"from": "DQLab",
+			"link": "https://dqlab.id/",
+			"image": ""
+		},
+		{
+			"title": "Python for Data Professional Beginner - Part 1",
+			"date": "21/8/2021",
+			"from": "DQLab",
+			"link": "https://dqlab.id/",
+			"image": ""
+		},
+		{
+			"title": "Python Fundamental for Data Science",
+			"date": "21/8/2021",
+			"from": "DQLab",
+			"link": "https://dqlab.id/",
+			"image": ""
+		},
+		{
+			"title": "R Fundamental for Data Science",
+			"date": "21/8/2021",
+			"from": "DQLab",
+			"link": "https://dqlab.id/",
+			"image": ""
+		},
+		{
+			"title": "Fundamental SQL Using Select Statement",
+			"date": "21/8/2021",
+			"from": "DQLab",
+			"link": "https://dqlab.id/",
+			"image": ""
+		}
+	]
+}
