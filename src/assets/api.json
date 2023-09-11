@@ -26,35 +26,56 @@
 			"date": "21/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": ""
+			"image": "certificate-DQLABINTP1FNKEMI.webp"
 		},
 		{
 			"title": "Python for Data Professional Beginner - Part 1",
-			"date": "21/8/2021",
+			"date": "19/9/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": ""
+			"image": "certificate-DQLABINTP1GLJSAI.webp"
 		},
 		{
 			"title": "Python Fundamental for Data Science",
-			"date": "21/8/2021",
+			"date": "23/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": ""
+			"image": "certificate-DQLABINTP1TSPFOS.webp"
 		},
 		{
 			"title": "R Fundamental for Data Science",
-			"date": "21/8/2021",
+			"date": "25/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": ""
+			"image": "certificate-DQLABINTR1HVQWIS.webp"
 		},
 		{
 			"title": "Fundamental SQL Using Select Statement",
-			"date": "21/8/2021",
+			"date": "25/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": ""
+			"image": "certificate-DQLABSQLT1TQLEEJ.webp"
+		},
+		{
+			"title": "Introduction to Javascript",
+			"date": "5/7/2023",
+			"from": "SoloLearn",
+			"link": "https://sololearn.com/",
+			"image": "JS072023.webp"
+		},
+		{
+			"title": "Intermediate Python",
+			"date": "24/1/2022",
+			"from": "SoloLearn",
+			"link": "https://sololearn.com/",
+			"image": "Python012022.webp"
+		},
+		{
+			"title": "Python for Beginner",
+			"date": "14/6/2021",
+			"from": "SoloLearn",
+			"link": "https://sololearn.com/",
+			"image": "Python062021.webp"
 		}
 	]
 }

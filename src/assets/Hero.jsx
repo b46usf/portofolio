@@ -7,9 +7,9 @@ export default function HeroApp() {
 				src="./img/1.webp"
 				className="w-[10rem] rounded-full bg-slate-500 border-slate-400 border-2 md:w-[12rem] lg:w-[15rem] md:order-last"
 			/>
-			<div className="md:ml-24 md:w-1/3">
+			<div className="md:ml-18 md:w-2/5 mt-5">
 				<h1 className="">{"Hello, I'm a"}</h1>
-				<h1 className="text-4xl md:text-6xl italic">
+				<h1 className="text-4xl md:text-6xl italic text-accent">
 					<Typewriter
 						style
 						onInit={(typewriter) => {
@@ -27,7 +27,7 @@ export default function HeroApp() {
 				</h1>
 				<h1>
 					My name is{" "}
-					<span className="text-2xl">Afrizal Luthfi Eka Arnatha</span>
+					<span className="text-xl font-semibold text-accent">Afrizal Luthfi Eka Arnatha</span>
 				</h1>
 			</div>
 		</div>

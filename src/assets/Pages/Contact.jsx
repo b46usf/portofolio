@@ -19,7 +19,7 @@ export default function Contact() {
 					viewBox="0 0 24 24"
 					strokeWidth={1.5}
 					stroke="currentColor"
-					className="w-6 h-6"
+					className="w-6 h-6 hover:stroke-accent"
 				>
 					<path
 						strokeLinecap="round"
@@ -27,15 +27,29 @@ export default function Contact() {
 						d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
 					/>
 				</svg>
-				<h1 className="hidden md:block">Back to Home</h1>
+				<h1 className="hidden md:block hover:text-accent">Back to Home</h1>
 			</Link>
 			<div className="h-full flex flex-col justify-center gap-10">
 				<div className="flex items-center gap-3 justify-cent">
-					<Phone size={26} />
+				<a
+						href="https://wa.me/085790558624"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="w-10 h-10"
+					>
+						<Phone size={26} className="hover:stroke-accent"/>
+					</a>
 					<h1>+62 857 9055 8624</h1>
 				</div>
 				<div className="flex gap-3 items-center">
-					<Mail size={26} />
+				<a
+						href="fianarnatha13@gmail.com"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="w-10 h-10"
+					>
+						<Mail size={26} className="hover:stroke-accent" />
+					</a>
 					<h1>afrizal.23183@mhs.unesa.ac.id</h1>
 				</div>
 				<div className="flex justify-between items-center">
@@ -45,7 +59,7 @@ export default function Contact() {
 						rel="noopener noreferrer"
 						className="w-10 h-10"
 					>
-						<Instagram size={26} />
+						<Instagram size={26} className="hover:stroke-accent" />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/afrizal-luthfi-4b8369281/"
@@ -53,7 +67,7 @@ export default function Contact() {
 						rel="noopener noreferrer"
 						className="w-10 h-10"
 					>
-						<Linkedin size={26} />
+						<Linkedin size={26} className="hover:stroke-accent" />
 					</a>
 					<a
 						href="https://github.com/Ijoelel"
@@ -61,7 +75,7 @@ export default function Contact() {
 						rel="noopener noreferrer"
 						className="w-10 h-10"
 					>
-						<GitHub size={26} />
+						<GitHub size={26} className="hover:stroke-accent" />
 					</a>
 					<a
 						href="https://twitter.com/Ijoelel?s=09"
@@ -69,7 +83,7 @@ export default function Contact() {
 						rel="noopener noreferrer"
 						className="w-10 h-10"
 					>
-						<Twitter size={26} />
+						<Twitter size={26} className="hover:stroke-accent" />
 					</a>
 					<a
 						href="https://afrizal-luthfi.vercel.app"
@@ -77,7 +91,7 @@ export default function Contact() {
 						rel="noopener noreferrer"
 						className="w-10 h-10"
 					>
-						<Globe size={26} />
+						<Globe size={26} className="hover:stroke-accent" />
 					</a>
 				</div>
 			</div>

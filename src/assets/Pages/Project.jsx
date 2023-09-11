@@ -10,7 +10,7 @@ export default function Project() {
 					viewBox="0 0 24 24"
 					strokeWidth={1.5}
 					stroke="currentColor"
-					className="w-6 h-6"
+					className="w-6 h-6 hover:stroke-accent"
 				>
 					<path
 						strokeLinecap="round"
@@ -18,7 +18,7 @@ export default function Project() {
 						d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
 					/>
 				</svg>
-				<h1 className="hidden md:block">Back to Home</h1>
+				<h1 className="hidden md:block hover:text-accent">Back to Home</h1>
 			</Link>
 			<div className="card card-compact w-96 bg-base-100 shadow-xl mt-16 md:mt-0">
 				<figure>
@@ -35,7 +35,7 @@ export default function Project() {
 							href="http://exsciitwo.vercel.app"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="btn btn-primary"
+							className="btn hover:bg-accent"
 						>
 							Visit
 						</a>
@@ -54,7 +54,7 @@ export default function Project() {
 							href="http://exsciitwo.vercel.app"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="btn btn-primary"
+							className="btn hover:bg-accent"
 						>
 							Visit
 						</a>
@@ -74,7 +74,7 @@ export default function Project() {
 					</p>
 					<div className="card-actions justify-end">
 						<button
-							className="btn btn-primary"
+							className="btn hover:bg-accent"
 							onClick={() =>
 								document
 									.getElementById("my_modal_5")
@@ -100,7 +100,7 @@ export default function Project() {
 											href="https://github.com/Ijoelel/iqiyi-clone"
 											target="_blank"
 											rel="noopener noreferrer"
-											className="btn btn-primary"
+											className="btn hover:bg-accent"
 										>
 											Yes
 										</a>
