@@ -5,77 +5,101 @@
 			"date": "7/7/2023",
 			"from": "HackerRank",
 			"link": "https://www.hackerrank.com/",
-			"image": "python_basic_certificate.webp"
+			"image": ["./sertif/python_basic_certificate.webp"]
 		},
 		{
 			"title": "Problem Solving (Basic)",
 			"date": "7/7/2023",
 			"from": "HackerRank",
 			"link": "https://www.hackerrank.com/",
-			"image": "problem_solving_basic_certificate.webp"
+			"image": ["./sertif/problem_solving_basic_certificate.webp"]
 		},
 		{
 			"title": "Introduction to Data Science with R",
 			"date": "21/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": "certificate-DQLABBGINRJRNCDG.webp"
+			"image": ["./sertif/certificate-DQLABBGINRJRNCDG.webp"]
 		},
 		{
 			"title": "Introduction to Data Science with Python",
 			"date": "21/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": "certificate-DQLABINTP1FNKEMI.webp"
+			"image": ["./sertif/certificate-DQLABINTP1FNKEMI.webp"]
 		},
 		{
 			"title": "Python for Data Professional Beginner - Part 1",
 			"date": "19/9/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": "certificate-DQLABINTP1GLJSAI.webp"
+			"image": ["./sertif/certificate-DQLABINTP1GLJSAI.webp"]
 		},
 		{
 			"title": "Python Fundamental for Data Science",
 			"date": "23/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": "certificate-DQLABINTP1TSPFOS.webp"
+			"image": ["./sertif/certificate-DQLABINTP1TSPFOS.webp"]
 		},
 		{
 			"title": "R Fundamental for Data Science",
 			"date": "25/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": "certificate-DQLABINTR1HVQWIS.webp"
+			"image": ["./sertif/certificate-DQLABINTR1HVQWIS.webp"]
 		},
 		{
 			"title": "Fundamental SQL Using Select Statement",
 			"date": "25/8/2021",
 			"from": "DQLab",
 			"link": "https://dqlab.id/",
-			"image": "certificate-DQLABSQLT1TQLEEJ.webp"
+			"image": ["./sertif/certificate-DQLABSQLT1TQLEEJ.webp"]
 		},
 		{
 			"title": "Introduction to Javascript",
 			"date": "5/7/2023",
 			"from": "SoloLearn",
 			"link": "https://sololearn.com/",
-			"image": "JS072023.webp"
+			"image": ["./sertif/JS072023.webp"]
 		},
 		{
 			"title": "Intermediate Python",
 			"date": "24/1/2022",
 			"from": "SoloLearn",
 			"link": "https://sololearn.com/",
-			"image": "Python012022.webp"
+			"image": ["./sertif/Python012022.webp"]
 		},
 		{
 			"title": "Python for Beginner",
 			"date": "14/6/2021",
 			"from": "SoloLearn",
 			"link": "https://sololearn.com/",
-			"image": "Python062021.webp"
+			"image": ["./sertif/Python062021.webp"]
+		},{
+			"title": "Memulai Pemrograman dengan Python",
+			"date": "04/6/2022",
+			"from": "Dicoding",
+			"link": "https://dicoding.com/",
+			"image": ["./sertif/sertifikat_course_86_1338882_040622175554-1.webp", "./sertif/sertifikat_course_86_1338882_040622175554-2.webp", "./sertif/sertifikat_course_86_1338882_040622175554-3.webp"]
+		},{
+			"title": "Belajar Dasar Visualisasi Data",
+			"date": "02/6/2022",
+			"from": "Dicoding",
+			"link": "https://dicoding.com/",
+			"image": ["./sertif/sertifikat_course_177_1338882_020622205018-1.webp", "./sertif/sertifikat_course_177_1338882_020622205018-2.webp"]
+		},{
+			"title": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+			"date": "18/3/2023",
+			"from": "Dicoding",
+			"link": "https://dicoding.com/",
+			"image": ["./sertif/sertifikat_course_251_1338882_180323184011-1.webp", "./sertif/sertifikat_course_251_1338882_180323184011-2.webp", "./sertif/sertifikat_course_251_1338882_180323184011-3.webp"]
+		},{
+			"title": "Belajar Dasar Manajemen Proyek",
+			"date": "18/7/2023",
+			"from": "Dicoding",
+			"link": "https://dicoding.com/",
+			"image": ["./sertif/sertifikat_course_570_1338882_240723145918-1.webp", "./sertif/sertifikat_course_570_1338882_240723145918-2.webp", "./sertif/sertifikat_course_570_1338882_240723145918-3.webp"]
 		}
 	]
 }

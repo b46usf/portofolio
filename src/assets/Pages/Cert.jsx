@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import api from "../api.json";
+import { Slider } from "reactjs-simple-slider";
+import {ChevronLeftIcon, ChevronRightIcon} from "@heroicons/react/24/outline"
 
 export default function Cert() {
 	return (
@@ -19,11 +21,13 @@ export default function Cert() {
 						d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
 					/>
 				</svg>
-				<h1 className="hidden md:block hover:text-accent">Back to Home</h1>
+				<h1 className="hidden md:block hover:text-accent">
+					Back to Home
+				</h1>
 			</Link>
 			<div className="w-full md:w-4/5 md:h-4/5 flex p-6 justify-center items-center border-0 rounded-lg border-gray-700 md:border-2">
 				<div className="overflow-x-auto w-full h-full">
-					<table className="table table-pin-rows table-pin-cols table-xs md:table-lg">
+					<table className="table table-pin-rows table-pin-cols table-xs sm:table-sm md:table-md lg:table-lg">
 						{/* head */}
 						<thead>
 							<tr>
@@ -70,9 +74,19 @@ export default function Cert() {
 											className="modal"
 										>
 											<div className="modal-box">
-												<img
-													src={`./sertif/${item.image}`}
-													alt={item.title}
+												<Slider
+													objectFit="contain"
+													images={item.image}
+													leftArrow={() => {
+														return(
+															<ChevronLeftIcon className="w-7 h-7 md:w-12 stroke-accent opacity-50 hover:opacity-100"/>
+														)
+													}}
+													rightArrow={() => {
+														return(
+															<ChevronRightIcon className="w-7 h-7 md:w-12 stroke-accent opacity-50 hover:opacity-100"/>
+														)
+													}}
 												/>
 											</div>
 
