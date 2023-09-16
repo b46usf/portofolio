@@ -8,13 +8,13 @@ export default function HeroApp() {
 				className="w-[10rem] rounded-full bg-slate-500 border-accent border-2 md:w-[12rem] lg:w-[15rem] md:order-last"
 			/>
 			<div className="md:ml-18 md:w-2/5 mt-5">
-				<h1 className="">{"Hello, I'm a"}</h1>
-				<h1 className="text-4xl md:text-6xl italic text-accent">
+				<h1 className="">{"Hello, My name is"}</h1>
+				<h1 className="text-4xl md:text-4xl italic text-accent">
 					<Typewriter
 						style
 						onInit={(typewriter) => {
 							typewriter
-								.typeString("Web Developer")
+								.typeString("Afrizal Luthfi Eka Arnatha")
 								.pauseFor(1000)
 								.deleteAll()
 								.start();
@@ -26,8 +26,7 @@ export default function HeroApp() {
 					/>
 				</h1>
 				<h1>
-					My name is{" "}
-					<span className="text-xl font-semibold text-accent">Afrizal Luthfi Eka Arnatha</span>
+					I{`'`}am a College Student
 				</h1>
 			</div>
 		</div>
