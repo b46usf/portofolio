@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Project() {
 	return (
-		<div className="w-screen h-screen flex items-center flex-col gap-4 md:justify-center md:mt-0 md:flex-row ">
+		<div className="w-screen h-screen flex items-center flex-col mt-4 gap-4 md:justify-center md:mt-0 md:flex-row ">
 			<Link to="/" className="flex gap-3 absolute top-5 left-8">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
