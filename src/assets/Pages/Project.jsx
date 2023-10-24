@@ -18,7 +18,9 @@ export default function Project() {
 						d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
 					/>
 				</svg>
-				<h1 className="hidden md:block hover:text-accent">Back to Home</h1>
+				<h1 className="hidden md:block hover:text-accent">
+					Back to Home
+				</h1>
 			</Link>
 			<div className="card card-compact w-96 bg-base-100 shadow-xl mt-16 md:mt-0">
 				<figure>
@@ -73,42 +75,14 @@ export default function Project() {
 						full-stack pertama saya.
 					</p>
 					<div className="card-actions justify-end">
-						<button
+						<a
+							href="http://iqiyi-clone.vercel.app"
+							target="_blank"
+							rel="noopener noreferrer"
 							className="btn hover:bg-accent"
-							onClick={() =>
-								document
-									.getElementById("my_modal_5")
-									.showModal()
-							}
 						>
 							Visit
-						</button>
-						<dialog
-							id="my_modal_5"
-							className="modal modal-bottom sm:modal-middle"
-						>
-							<div className="modal-box">
-								<h3 className="font-bold text-lg">Sorry!</h3>
-								<p className="py-4">
-									Website is not completed yet. Wanna see my
-									repo ?
-								</p>
-								<div className="modal-action">
-									<form method="dialog">
-										{/* if there is a button in form, it will close the modal */}
-										<a
-											href="https://github.com/Ijoelel/iqiyi-clone"
-											target="_blank"
-											rel="noopener noreferrer"
-											className="btn hover:bg-accent"
-										>
-											Yes
-										</a>
-										<button className="btn">No</button>
-									</form>
-								</div>
-							</div>
-						</dialog>
+						</a>
 					</div>
 				</div>
 			</div>

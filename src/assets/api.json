@@ -76,30 +76,56 @@
 			"from": "SoloLearn",
 			"link": "https://sololearn.com/",
 			"image": ["./sertif/Python062021.webp"]
-		},{
+		},
+		{
 			"title": "Memulai Pemrograman dengan Python",
 			"date": "04/6/2022",
 			"from": "Dicoding",
 			"link": "https://dicoding.com/",
-			"image": ["./sertif/sertifikat_course_86_1338882_040622175554-1.webp", "./sertif/sertifikat_course_86_1338882_040622175554-2.webp", "./sertif/sertifikat_course_86_1338882_040622175554-3.webp"]
-		},{
+			"image": [
+				"./sertif/sertifikat_course_86_1338882_040622175554-1.webp",
+				"./sertif/sertifikat_course_86_1338882_040622175554-2.webp",
+				"./sertif/sertifikat_course_86_1338882_040622175554-3.webp"
+			]
+		},
+		{
 			"title": "Belajar Dasar Visualisasi Data",
 			"date": "02/6/2022",
 			"from": "Dicoding",
 			"link": "https://dicoding.com/",
-			"image": ["./sertif/sertifikat_course_177_1338882_020622205018-1.webp", "./sertif/sertifikat_course_177_1338882_020622205018-2.webp"]
-		},{
+			"image": [
+				"./sertif/sertifikat_course_177_1338882_020622205018-1.webp",
+				"./sertif/sertifikat_course_177_1338882_020622205018-2.webp"
+			]
+		},
+		{
 			"title": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
 			"date": "18/3/2023",
 			"from": "Dicoding",
 			"link": "https://dicoding.com/",
-			"image": ["./sertif/sertifikat_course_251_1338882_180323184011-1.webp", "./sertif/sertifikat_course_251_1338882_180323184011-2.webp", "./sertif/sertifikat_course_251_1338882_180323184011-3.webp"]
-		},{
+			"image": [
+				"./sertif/sertifikat_course_251_1338882_180323184011-1.webp",
+				"./sertif/sertifikat_course_251_1338882_180323184011-2.webp",
+				"./sertif/sertifikat_course_251_1338882_180323184011-3.webp"
+			]
+		},
+		{
 			"title": "Belajar Dasar Manajemen Proyek",
 			"date": "18/7/2023",
 			"from": "Dicoding",
 			"link": "https://dicoding.com/",
-			"image": ["./sertif/sertifikat_course_570_1338882_240723145918-1.webp", "./sertif/sertifikat_course_570_1338882_240723145918-2.webp", "./sertif/sertifikat_course_570_1338882_240723145918-3.webp"]
+			"image": [
+				"./sertif/sertifikat_course_570_1338882_240723145918-1.webp",
+				"./sertif/sertifikat_course_570_1338882_240723145918-2.webp",
+				"./sertif/sertifikat_course_570_1338882_240723145918-3.webp"
+			]
+		},
+		{
+			"title": "Alibab Cloud Certification",
+			"date": "27/9/2023",
+			"from": "ALibab Cloud",
+			"link": "https://alibabacloud.com/",
+			"image": ["./sertif/alibaba_cloud_certification.webp"]
 		}
 	]
 }

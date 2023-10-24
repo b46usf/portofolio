@@ -48,7 +48,7 @@ export default function About() {
 
 			{/* Skills Section */}
 			<div className="bg-base-300 w-4/5 md:w-3/5 rounded-box p-12 flex flex-col col-span-2 gap-5 items-start justify-center">
-				<h1 className="text-accent text-2xl">what skill i can</h1>
+				<h1 className="text-accent text-2xl">what language i&apos;ve learned</h1>
 				<div className="w-full flex justify-start gap-3 md:justify-between flex-wrap items-center">
 					<svg viewBox="0 0 128 128" className="w-10 hover:scale-125">
 						<path
